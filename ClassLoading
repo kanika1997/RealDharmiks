@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class TestEmployee {
+	public static void main(String []args) throws ClassNotFoundException {
+		String className;
+		System.out.println("Enter class to be loaded");
+		Scanner scanner = new Scanner(System.in);
+		className = scanner.next();
+		Class.forName(className);
+		//System.out.println("no.of objects are " +Employee.counter);
+		//Employee employee = new Employee(101, "Kanika", 800000);
+		//Employee employee1 = new Employee(101, "Kani", 800000);
+		//employee.printSlip();
+		//System.out.println("No. of objects are " +Employee.counter);
+	}
+
+}
